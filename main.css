@@ -148,7 +148,7 @@
 
 .mainBest .inner figure {
     position: relative;
-    flex: 1;   
+    flex: 1;
 }
 
 .mainBest .inner figure img {
@@ -335,6 +335,7 @@
 .mainService {
     padding: 100px 0;
     background: #f9f9f9;
+
 }
 
 .mainService h2 {
@@ -355,6 +356,7 @@
     width: 1200px;
     margin: 0 auto;
     display: flex;
+    /* outline: 1px solid red; */
 }
 
 .mainService .inner img {
@@ -364,12 +366,16 @@
 .mainService .ser_left .ser_img {
     display: flex;
     gap: 30px;
-
 }
 
 .mainService .ser_left .ser_img figure {
     position: relative;
+
 }
+
+/* .mainService .ser_left .ser_img figure img {
+    vertical-align: middle;
+} */
 
 .mainService .ser_left_txt {
     position: absolute;
@@ -387,11 +393,26 @@
     height: 140px;
     border: 1px solid #dcdcdc;
     background: #fff;
-    margin: 0 0 20px 30px;
+    margin: 0 0 16px 30px;
+    text-align: center;
+}
+
+.mainService .ser_box_last {
+    position: relative;
+    width: 270px;
+    height: 140px;
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    margin: 0 0 0 30px;
     text-align: center;
 }
 
 .mainService .ser_box img {
+    width: 55px;
+    margin: 30px 0 0 0;
+}
+
+.mainService .ser_box_last img {
     width: 55px;
     margin: 30px 0 0 0;
 }
@@ -406,7 +427,7 @@
 
 /* --- mainSocial --- */
 .mainSocial {
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
 
 .mainSocial h2 {
@@ -494,6 +515,7 @@
     width: 1200px;
     margin: 0 auto;
 }
+
 .footer .bottom {
     line-height: 80px;
 }
